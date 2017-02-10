@@ -35,3 +35,11 @@ name=input("what is your name? ")
 month=input("Hi " +name+ " what month are you born in? ")
 year= input ("What year are you born in? ")
 day= input("What day are you born on? ")
+if month in ["January", "February", "December"] and year <2000 and year >1989:
+    print("Hi " +name+ "you are a winter baby of the 90's")
+if month in ["March", "April", "May"] <2000 and year >1989:
+    print("Hi " +name+ "you are a spring baby of the 90's")
+if month in ["June", "July", "August"] and year <2000 and year >1989: 
+    print("Hi " +name+ "you are a summer baby of the 90's")
+if month in ["September", "October", "November"] and year <2000 and year >1989: 
+    print("Hi " +name+ "you are a fall baby of the 90's")
