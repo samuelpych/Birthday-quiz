@@ -39,11 +39,11 @@ name=input("what is your name? ")
 month=input("Hi " +name+ " what month are you born in? ")
 year=int(input("What year are you born in? "))
 day=int(input("What day are you born on? "))
-if month in ["december", "january", "february"]:
+if month in ["December", "January", "February"]:
     season="winter"
-elif month in ["march", "april", "may"]:
+elif month in ["March", "April", "May"]:
     season= "spring"
-elif month in ["june", "july", "august"]:
+elif month in ["June", "July", "August"]:
    season = "summer"
 else:
     season="fall"
@@ -60,6 +60,6 @@ if month == "october" and day==31:
 elif month == month_name[todaymonth] and day == datetime.today().day:
     print("Happy birthday!")
 else:
-    print(name+ "you are a "+season+" baby of the "+tp+".")
+    print(name+ " you are a "+season+" baby of the "+tp+".")
 
 
