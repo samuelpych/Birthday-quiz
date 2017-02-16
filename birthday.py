@@ -36,9 +36,9 @@ from calendar import month_name
 todaymonth = datetime.today().month
 todaydate = datetime.today().day
 name=input("Hello, what is your name? ")
-month=input("Hi " +name+ " what was the name of the month you were born in? ")
-year=int(input("and what year were you born in, "+name+"?"))
-day=int(input("And the day?"))
+month=input("Hi " +name+ ", what was the name of the month you were born in? ")
+year=int(input("And what year were you born in, "+name+"?"))
+day=int(input(" And the day?"))
 if month in ["December", "January", "February"]:
     season="winter"
 elif month in ["March", "April", "May"]:
