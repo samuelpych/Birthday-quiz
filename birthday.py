@@ -38,7 +38,7 @@ todaydate = datetime.today().day
 name=input("Hello, what is your name? ")
 month=input("Hi " +name+ ", what was the name of the month you were born in? ")
 year=int(input("And what year were you born in, "+name+"?"))
-day=int(input(" And the day?"))
+day=int(input(" And the day? "))
 if month in ["December", "January", "February"]:
     season="winter"
 elif month in ["March", "April", "May"]:
@@ -60,6 +60,6 @@ if month == "october" and day==31:
 elif month == month_name[todaymonth] and day == datetime.today().day:
     print("Happy birthday!")
 else:
-    print(name+ " you are a "+season+" baby of the "+tp+".")
+    print(name+ ", you are a "+season+" baby of the "+tp+".")
 
 
