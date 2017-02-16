@@ -55,7 +55,7 @@ elif year >=1980 and year <1990:
     tp="eighties"
 else:
     tp="Stone Age"
-if month == "october" and day==31:
+if month == "October" and day==31:
     print("You were born on Haloween!")
 elif month == month_name[todaymonth] and day == datetime.today().day:
     print("Happy birthday!")
